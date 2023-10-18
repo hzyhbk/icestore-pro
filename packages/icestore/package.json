@@ -1,0 +1,23 @@
+{
+  "name": "icestore-pro",
+  "version": "1.0.0",
+  "description": "icestore-pro",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "src",
+    "lib"
+  ],
+  "scripts": {
+    "build": "rm -rf lib && tsc",
+    "watch": "rm -rf lib && tsc -w"
+  },
+  "dependencies": {
+    "immer": "^9.0.12",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.1.5"
+  }
+}
